@@ -3,7 +3,7 @@
 $joaoSalario = 1000;
 $joaoPrevidencia = 100;
 $joaoNome = 'João Filho';
-$joaoDescontos = number_format($joaoSalario*0.275 + $joaoPrevidencia, 2, ',', '-');
+$joaoDescontos = number_format($joaoSalario*0.275 + $joaoPrevidencia, 2, ',', '.');
 
 $mariaSalario = 2000;
 $mariaPrevidencia = 200;
